@@ -1,0 +1,15 @@
+<% layout("layouts/boilerplate") %>
+
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="alert alert-danger" role="alert">
+      <h6>Something went wrong!!!</h6>
+      <h4 class="alert-heading"><%= err.message %></h4>
+      <% if (process.env.NODE_ENV !== "production") { %> 
+        <p><%= err.stack %> </p>
+        <hr>
+        <p class="mb-0">Please make sure there is no Bug in your Program!!!</p>
+      <% } %> 
+    </div>
+  </div>
+</div>

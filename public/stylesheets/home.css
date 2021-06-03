@@ -1,0 +1,21 @@
+body{
+    background-color: powderblue;
+    background-image: url('https://images.unsplash.com/photo-1475483768296-6163e08872a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1, h4{
+    text-align: center; 
+    color:powderblue; 
+    font-family: 'Bellota', cursive;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+
+
